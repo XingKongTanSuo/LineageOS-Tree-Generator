@@ -87,7 +87,6 @@ jobs:
         cd /home/LOS-Generator/*
         working_dump=$(pwd)
         python3 -m aospdtgen $working_dump
-        ./extract-files.sh
         echo "Successful!"
         mv $working_dump/output /home/LOS-Generator
 
