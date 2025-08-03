@@ -84,7 +84,7 @@ jobs:
     - name: Creating LineageOS Tree
       id: gen-dt
       run: |
-        cd /home/LOS-Generator/dump-T6742_32-20241214/*
+        cd /home/LOS-Generator/dump_alps_T6742_32dump-T6742_32-20241214-/*
         working_dump=$(pwd)
         python3 -m aospdtgen $working_dump
         echo "Successful!"
